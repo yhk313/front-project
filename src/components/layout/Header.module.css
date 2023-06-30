@@ -1,0 +1,59 @@
+
+
+.headerWrap{
+    display: flex;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    z-index: 10;
+    
+    justify-content: space-between;
+    box-shadow: 0px 7px 10px -10px gray;
+    
+}
+
+.topHeader{
+    
+    padding: 18px 0px;
+    justify-content: center;
+}
+
+.logoCenter{
+    display: flex;
+    justify-content: center;
+
+}
+
+.mainLogo{
+    width: 96px;
+    height: 18px;
+   
+}
+
+.mainLogo img{
+    width: 100%;
+}
+
+.iconRight{
+    display: flex;
+    /* width: 50px; */
+    align-items: center;
+    
+    
+}
+
+.icon{
+    width: 24px;
+    height: 24px;
+}
+
+
+
+li img{
+    width: 100%;
+}
+
+.loginTxt{
+    font-size: 12px;
+}
+

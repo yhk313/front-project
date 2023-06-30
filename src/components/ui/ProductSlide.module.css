@@ -1,0 +1,37 @@
+
+.item{
+    width: 100%;
+    border: 1px solid #ebebeb;
+    border-radius: 16px;
+    padding: 30px 0px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.thumbnailImg{
+    width: 60%;
+}
+
+.thumbnailImg img{
+    width: 100%;
+   
+}
+
+.productName {
+    font-size: 15px;
+    color: #333333;
+    height: 54px;
+    line-height: 25px;
+    text-align: center;
+    /* text-overflow: ellipsis;
+    overflow: hidden; */
+}
+
+.price{
+    font-size:18px;
+    color: #f95a00;
+    font-weight: 600;
+    text-align: center;
+
+}

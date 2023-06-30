@@ -1,0 +1,14 @@
+.cart{
+    display: flex;
+    justify-content: end;
+}
+
+.cart button {
+    background-color: #f9bb00;
+    border-radius: 15px;
+    padding: 4px 10px;
+    color: #fff;
+    border: none;
+    font-weight: bolder;
+
+}

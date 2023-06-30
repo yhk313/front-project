@@ -1,0 +1,98 @@
+.cartListCardWrap{
+    
+    width: 100%;
+    margin: 0 auto;
+}
+
+.cartArea{
+    display: flex;
+    border-bottom: 1px solid #f5f5f5;
+    padding: 40px 0px;
+    
+
+
+}
+
+.cartThmb{
+    display: flex;
+    width: 30vw;
+    
+    
+}
+
+.cartImg{
+    margin-left: 5px;
+    
+}
+.cartImg img{
+    width: 100%;
+    border-radius: 15px;
+    
+}
+
+.cartCont{
+    margin-left: 10px;
+    width: 60vw;
+    
+    
+}
+
+.cartContHead{
+    display: flex;
+    justify-content: space-between;
+    
+}   
+
+.cartCont .cartCat{
+    font-size: 12px;
+    font-weight: normal;
+    color: #222;
+}
+
+.cartCont .cartDel{
+    display: flex;
+    align-items: center;
+}
+.cartCont .cartDel img{
+   width: 10px;
+   height: 10px;
+}
+
+.cartTit p{
+    color: #222;
+    margin-right: 15px;
+}
+
+
+.cartPay{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.cartPay .cartPrice{
+    font-style: normal;
+    word-break: break-all;
+    word-wrap: break-word;
+    color: #222;
+    font-size: 18px;
+    font-weight: 600;
+
+}
+.cartPay .cartQty{
+    display: flex;
+    align-items: center;
+}
+.buttonPlus {
+    width: 14px;
+    height: 14px;
+}
+.buttonminus {
+    width: 14px;
+    height: 14px;
+}
+
+
+.cartPay .cartQty .cartTxtQty{
+    margin: 0px 15px;
+}

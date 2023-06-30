@@ -1,0 +1,100 @@
+.eventSection{
+    margin-top: 30px;
+}
+
+.eventTitle{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 30px;
+}
+
+/* 
+.buttonWrap{
+    display: flex;
+    align-items: center;
+    
+}
+
+.buttonText {
+    font-size: 10px !important;
+    font-weight: bold;
+    height: auto;
+    padding-right: 5px;
+}
+
+
+.buttonIcon {
+    width: 14px;
+    height: 14px;
+    display: flex;
+}
+
+.buttonIcon img{
+    width: 100%;
+} */
+
+
+
+.eventListWrap{
+    width: 100%;
+}
+
+.eventList{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 20px;
+}
+
+
+.eventName{
+    font-size: 18px !important;
+    color: #333333;
+    margin-bottom: 20px;
+
+
+}
+
+
+.categories{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    color: #999999;
+    line-height: 25.5px;
+    font-weight: 400;
+    font-size: 14.96px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.category{
+    width: 100%;
+    padding: 0px 4px;
+}
+
+
+.category .categoryBtn{
+    height: 38px;
+    box-shadow:0px 8px 24px rgb(0 0 0 / 5%);
+    border:0.5px solid #ebebeb;
+    background-color: white;
+    border-radius:16px !important;
+    width: 100%;
+
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.category :active{
+    cursor: pointer;
+    background-color: #ffbf00;
+}
+
+.category h2{
+    font-size: 12px !important;
+}
+

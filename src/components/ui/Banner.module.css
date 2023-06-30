@@ -1,0 +1,19 @@
+.eventItemSliderWrap{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.mainBanner{
+    height: 44.9vw;
+    border-radius: 0 0 16px 16px;
+}
+.mainBanner img{
+    width: 100%;
+    border-radius: 0 0 16px 16px;
+}
+
+.pointerBar{
+    height: 2px;
+    background-color: #ebebeb;
+    margin-top: 15px;
+}

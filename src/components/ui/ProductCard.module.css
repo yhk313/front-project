@@ -1,0 +1,51 @@
+.eventListWrap{
+  width: 100%;
+}
+
+.eventList{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 10px;
+  row-gap: 20px;
+}
+
+
+.eventName{
+  font-size: 18px !important;
+  color: #333333;
+  margin-bottom: 20px;
+
+}
+.eventItem{
+  width: 100%;
+  border: 1px solid #ebebeb;
+  border-radius: 16px;
+  padding: 30px 0px;
+  display: flex;
+  justify-content: center;
+}
+
+.eventThumbnailImg{
+  width: 60%;
+}
+
+.eventThumbnailImg img{
+  width: 100%;
+}
+
+.eventItemName{
+  font-size: 15px;
+  color: #333333;
+  height: 54px;
+  line-height: 25px;
+  text-align: center;
+  /* text-overflow: ellipsis;
+  overflow: hidden; */
+}
+
+.eventItemPrice{
+  font-size:18px;
+  color: #f95a00;
+  font-weight: 600;
+  text-align: center;
+}
